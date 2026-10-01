@@ -5,17 +5,17 @@ const HeroBanner = () => {
     <section className="hero">
       <img
         src="/images/hero-banner.jpg"
-        alt="নবীগঞ্জের সৌন্দর্য"
+        alt="মিরপুরের সৌন্দর্য"
         className="hero__image"
         loading="eager"
       />
       <div className="hero__overlay">
         <div className="hero__content">
           <div className="hero__text">
-            <h2 className="hero__title">নবীগঞ্জ</h2>
+            <h2 className="hero__title">মিরপুর</h2>
             <p className="hero__subtitle">আমাদের অহংকার</p>
             <p className="hero__description">
-              সবুজে ঘেরা, সম্ভাবনায় ভরা, মানুষের নবীগঞ্জ
+              সবুজে ঘেরা, সম্ভাবনায় ভরা, মানুষের মিরপুর
             </p>
             <div className="hero__tags">
               {HERO_TAGS.map((tag, index) => (
@@ -26,9 +26,9 @@ const HeroBanner = () => {
             </div>
           </div>
           <div className="hero__badge">
-            <p className="hero__badge-title">Nabiganj Habiganj Bangladesh</p>
+            <p className="hero__badge-title">Mirpur Dhaka Bangladesh</p>
             <p className="hero__badge-text">
-              My<br />Nabiganj<br />My Pride
+              My<br />Mirpur<br />My Pride
             </p>
           </div>
         </div>

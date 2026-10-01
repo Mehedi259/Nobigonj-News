@@ -17,7 +17,7 @@ function App() {
         <HeroBanner />
         <StatsSection />
         <TopPlaces />
-        <section className="news-section" id="hello-nabiganj">
+        <section className="news-section" id="hello-mirpur">
           <div className="container">
             <NewsSection />
             <Sidebar />

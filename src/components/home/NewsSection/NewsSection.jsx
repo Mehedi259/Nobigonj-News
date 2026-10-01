@@ -8,7 +8,7 @@ const NewsSection = () => {
   return (
     <div className="news-main">
       <div className="section-header">
-        <h2 className="section-header__title">হ্যালো নবীগঞ্জ</h2>
+        <h2 className="section-header__title">হ্যালো মিরপুর</h2>
       </div>
       <div className="news-grid">
         {/* Featured news */}
@@ -22,7 +22,7 @@ const NewsSection = () => {
                 loading="lazy"
               />
               <div className="news-featured__overlay">
-                <span className="news-featured__overlay-tag">নবীগঞ্জে আপনাকে স্বাগতম</span>
+                <span className="news-featured__overlay-tag">মিরপুরে আপনাকে স্বাগতম</span>
               </div>
             </div>
             <div className="news-featured__body">

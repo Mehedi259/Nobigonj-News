@@ -1,8 +1,8 @@
 // Navigation menu items
 export const NAV_ITEMS = [
   { id: 'home', label: 'হোম', href: '#', active: true },
-  { id: 'hello-nabiganj', label: 'হ্যালো নবীগঞ্জ', href: '#hello-nabiganj' },
-  { id: 'nabiganj-identity', label: 'নবীগঞ্জ পরিচিতি', href: '#nabiganj-identity' },
+  { id: 'hello-mirpur', label: 'হ্যালো মিরপুর', href: '#hello-mirpur' },
+  { id: 'mirpur-identity', label: 'মিরপুর পরিচিতি', href: '#mirpur-identity' },
   { id: 'news', label: 'নিউজ', href: '#news' },
   { id: 'national', label: 'জাতীয়', href: '#national' },
   { id: 'entertainment', label: 'বিনোদন', href: '#entertainment' },
@@ -15,7 +15,7 @@ export const STATS_DATA = [
     id: 'population',
     icon: '👥',
     value: '৪,৫৫,০৮৭',
-    label: 'নবীগঞ্জের মানুষ',
+    label: 'মিরপুরের মানুষ',
     sublabel: '(আনুমানিক)',
   },
   {
@@ -54,13 +54,13 @@ export const TOP_PLACES = [
     id: 'tea-garden',
     image: '/images/tea-garden.jpg',
     title: 'চা বাগান',
-    location: 'নবীগঞ্জ সবুজ চৈতন্য',
+    location: 'মিরপুর সবুজ চৈতন্য',
   },
   {
     id: 'kushiyara-river',
     image: '/images/kushiyara-river.jpg',
     title: 'কুশিয়ারা নদী',
-    location: 'নবীগঞ্জ প্রাণ',
+    location: 'মিরপুর প্রাণ',
   },
   {
     id: 'mosque-shrine',
@@ -75,26 +75,26 @@ export const TOP_PLACES = [
     location: 'হাওরের সৌন্দর্য রূপ',
   },
   {
-    id: 'nabiganj-bridge',
-    image: '/images/nabiganj-bridge.jpg',
-    title: 'নবীগঞ্জ সেতু',
+    id: 'mirpur-bridge',
+    image: '/images/mirpur-bridge.jpg',
+    title: 'মিরপুর সেতু',
     location: 'যোগাযোগের প্রতীক',
   },
   {
     id: 'village-heritage',
     image: '/images/village-heritage.jpg',
     title: 'গ্রামীণ ঐতিহ্য',
-    location: 'নবীগঞ্জ ঐতিহ্য',
+    location: 'মিরপুর ঐতিহ্য',
   },
 ];
 
-// News articles for Hello Nabiganj section
+// News articles for Hello Mirpur section
 export const HELLO_NEWS = [
   {
     id: 'news-1',
     image: '/images/news-road.jpg',
-    title: 'নবীগঞ্জে নতুন সড়ক প্রকল্পের কাজ শুরু',
-    excerpt: 'নবীগঞ্জ উপজেলায় যোগাযোগ ব্যবস্থার উন্নয়ন নতুন সড়ক প্রকল্প কাজ শুরু হয়ে...',
+    title: 'মিরপুরে নতুন সড়ক প্রকল্পের কাজ শুরু',
+    excerpt: 'মিরপুর উপজেলায় যোগাযোগ ব্যবস্থার উন্নয়ন নতুন সড়ক প্রকল্প কাজ শুরু হয়ে...',
     date: '18 Sep 2026',
     views: '1.2K',
     featured: true,
@@ -102,7 +102,7 @@ export const HELLO_NEWS = [
   {
     id: 'news-2',
     image: '/images/news-education.jpg',
-    title: 'নবীগঞ্জে শিক্ষার মানোন্নয়ের উদ্যোগ',
+    title: 'মিরপুরে শিক্ষার মানোন্নয়ের উদ্যোগ',
     excerpt: '',
     date: '17 Sep 2026',
     views: '842',
@@ -120,7 +120,7 @@ export const HELLO_NEWS = [
   {
     id: 'news-4',
     image: '/images/haor-wetland.jpg',
-    title: 'নবীগঞ্জে যুবসমাজের উদ্যোগে পরিষ্কার-পরিচ্ছন্নতা অভিযান',
+    title: 'মিরপুরে যুবসমাজের উদ্যোগে পরিষ্কার-পরিচ্ছন্নতা অভিযান',
     excerpt: '',
     date: '15 Sep 2026',
     views: '990',
@@ -128,8 +128,8 @@ export const HELLO_NEWS = [
   },
   {
     id: 'news-5',
-    image: '/images/nabiganj-bridge.jpg',
-    title: 'নবীগঞ্জে স্বায়ত্বশাসনের নতুন সম্ভাবনা',
+    image: '/images/mirpur-bridge.jpg',
+    title: 'মিরপুরে স্বায়ত্বশাসনের নতুন সম্ভাবনা',
     excerpt: '',
     date: '14 Sep 2026',
     views: '1.3K',
@@ -181,7 +181,7 @@ export const SPORTS_NEWS = [
 export const WEATHER_DATA = {
   temperature: '৩০°C',
   condition: 'আংশিক মেঘলা',
-  location: 'নবীগঞ্জ',
+  location: 'মিরপুর',
   humidity: '৭৬%',
   feelsLike: '৩৫°C',
   wind: '১৮ কিমি/ঘণ্টা',
@@ -189,14 +189,14 @@ export const WEATHER_DATA = {
 };
 
 // Marquee text
-export const MARQUEE_TEXT = '🔴 নবীগঞ্জ, হবিগঞ্জ, সিলেট | মানুষের জন্য, এলাকার জন্য';
+export const MARQUEE_TEXT = '🔴 মিরপুর, ঢাকা, ঢাকা | মানুষের জন্য, এলাকার জন্য';
 
 // Footer links
 export const FOOTER_LINKS = {
   quickLinks: [
     { label: 'হোম', href: '#' },
-    { label: 'হ্যালো নবীগঞ্জ', href: '#' },
-    { label: 'নবীগঞ্জ পরিচিতি', href: '#' },
+    { label: 'হ্যালো মিরপুর', href: '#' },
+    { label: 'মিরপুর পরিচিতি', href: '#' },
     { label: 'বিজ্ঞাপন দিন', href: '#' },
     { label: 'বিনোদন', href: '#' },
     { label: 'খেলাধুলা', href: '#' },
@@ -217,13 +217,13 @@ export const PERSONS = [
     id: 'mp',
     title: 'এমপি',
     name: 'আব্দুল মজিদ খান',
-    designation: '(নবীগঞ্জ-১)',
+    designation: '(মিরপুর-১)',
   },
   {
     id: 'dc',
     title: 'মেয়র',
     name: 'আকরাম হোসেন',
-    designation: 'নবীগঞ্জ পৌরসভা',
+    designation: 'মিরপুর পৌরসভা',
   },
 ];
 

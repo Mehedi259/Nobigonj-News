@@ -10,12 +10,12 @@ const Footer = () => {
           <div className="footer__logo">
             <div className="footer__logo-icon">হে</div>
             <div className="footer__logo-text">
-              <h3>Hello Nabiganj</h3>
-              <p>নবীগঞ্জের মানুষ, নবীগঞ্জের গল্প</p>
+              <h3>Hello Mirpur</h3>
+              <p>মিরপুরের মানুষ, মিরপুরের গল্প</p>
             </div>
           </div>
           <p className="footer__description">
-            নবীগঞ্জের সব খবর, মানুষের গল্প, ইতিহাস, ঐতিহ্য ও উন্নয়নের হাতে – সব এক প্ল্যাটফর্মে।
+            মিরপুরের সব খবর, মানুষের গল্প, ইতিহাস, ঐতিহ্য ও উন্নয়নের হাতে – সব এক প্ল্যাটফর্মে।
           </p>
           <div className="footer__socials">
             <a href="#" aria-label="Facebook"><FaFacebookF /></a>
@@ -48,13 +48,13 @@ const Footer = () => {
         {/* Newsletter */}
         <div className="footer__newsletter">
           <h4>নিউজলেটার সাবস্ক্রাইব করুন</h4>
-          <p>নবীগঞ্জের তাজাতম্ম খবর ও আপডেট ইমেইল পেতে</p>
+          <p>মিরপুরের তাজাতম্ম খবর ও আপডেট ইমেইল পেতে</p>
           <form className="footer__newsletter-form" onSubmit={(e) => e.preventDefault()}>
             <input type="email" placeholder="আপনার ইমেইল লিখুন" />
             <button type="submit">সাবস্ক্রাইব</button>
           </form>
           <div className="footer__heart-badge">
-            <span>Nabiganj</span> Always in Our Hearts ♡
+            <span>Mirpur</span> Always in Our Hearts ♡
           </div>
         </div>
       </div>
@@ -62,8 +62,8 @@ const Footer = () => {
       {/* Footer Bottom */}
       <div className="footer__bottom">
         <div className="container">
-          <p>© ২০২৬ Hello Nabiganj. সর্বস্বত্ব সংরক্ষিত।</p>
-          <p>নবীগঞ্জের মানুষ, নবীগঞ্জের কথা। | Made with ❤️ for Nabiganj</p>
+          <p>© ২০২৬ Hello Mirpur. সর্বস্বত্ব সংরক্ষিত।</p>
+          <p>মিরপুরের মানুষ, মিরপুরের কথা। | Made with ❤️ for Mirpur</p>
         </div>
       </div>
     </footer>

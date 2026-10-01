@@ -5,7 +5,7 @@ const TopPlaces = () => {
     <section className="top-places">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-header__title">নবীগঞ্জের সেরা স্থানসমূহ</h2>
+          <h2 className="section-header__title">মিরপুরের সেরা স্থানসমূহ</h2>
           <a href="#" className="section-header__link">সব দেখুন →</a>
         </div>
         <div className="top-places__grid">

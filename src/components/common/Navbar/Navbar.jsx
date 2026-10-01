@@ -11,8 +11,8 @@ const Navbar = () => {
         <a href="#" className="navbar__logo">
           <div className="navbar__logo-icon">হে</div>
           <div className="navbar__logo-text">
-            <h1>Hello Nabiganj</h1>
-            <p>নবীগঞ্জের মানুষ, নবীগঞ্জের গল্প</p>
+            <h1>Hello Mirpur</h1>
+            <p>মিরপুরের মানুষ, মিরপুরের গল্প</p>
           </div>
         </a>
 
